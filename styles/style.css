@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Foldit&display=swap');
+
+#name{
+    font: 40px 'Foldit'
+}
+
 table, tr, th, td {
     border: 1px solid;
     border-collapse: collapse;
