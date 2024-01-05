@@ -5,7 +5,7 @@ table, tr, th, td {
 }
 
 img[alt="Photo de profil"]{
-    border: 5px dotted mediumaquamarine;
+    border: 5px dotted rebeccapurple;
     opacity:90%;
 }
 
