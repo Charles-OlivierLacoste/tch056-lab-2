@@ -15,11 +15,8 @@ img[alt="Photo de profil"]:hover{
 
 }
 
-main{
-    margin-inline: 15%;
-}
-
 body{
+    margin-inline: 15%;
     background: rgb(26,101,134);
     background: radial-gradient(circle, rgba(26,101,134,1) 0%, rgba(0,212,255,0.7875350823923319) 100%); 
 }
@@ -51,4 +48,14 @@ body{
 form label,input,textarea,button{
     margin-bottom: 5px;
     display: block;
+}
+
+.saisie{
+    font: 14px 'Arial';
+    opacity: 80%;
+    width: 50%;
+}
+
+.bouton{
+    width: 100px;
 }

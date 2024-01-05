@@ -11,95 +11,108 @@
         <!--Placer un element vide de reference-->
         <a id="debut-page"></a>
 
+        <header><a href="https://example.com" target="_BLANK"><img src="./images/profil.png" alt="Photo de profil"></a></header>
+
         <main>
-            <a href="https://example.com" target="_BLANK"><img src="./images/profil.png" alt="Photo de profil"></a>
+            <section>
+                <h1>Charles-Olivier Lacoste</h1>
+                <p class="content">Étudiant de première année à l'ETS au cheminement universitaire en technologie.</p>
 
-            <h1>Charles-Olivier Lacoste</h1>
-            <p class="content">Étudiant de première année à l'ETS au cheminement universitaire en technologie.</p>
+                <h2>Horaire pour la session Hiver 2024</h2>
+                <table id="schedule" class="content">
+                    <caption>
+                        Grille horaire
+                    </caption>
+                
+                    <tr>
+                        <td align="center">-</td>
+                        <th>Lundi</th>
+                        <th>Mardi</th>
+                        <th>Mercredi</th>
+                        <th>Jeudi</th>
+                        <th>Vendredi</th>
+                    </tr>
+                
+                    <tr>
+                        <th>AM</th>
+                        <td>TCH055</td>
+                        <td>INF111</td>
+                        <td>TCH057</td>
+                        <td rowspan="2">TCH056</td>
+                        <td rowspan="2">TCH056</td>
+                    </tr>
+                
+                    <tr>
+                        <th>PM</th>
+                        <td>TCH057</td>
+                        <td>TCH055</td>
+                        <td>INF111</td>
+                    </tr>
+                
+                    <tr>
+                        <th>Soir</th>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                    </tr>
+                </table>
+            </section>
 
-            <h2>Horaire pour la session Hiver 2024</h2>
-            <table id="schedule" class="content">
-                <caption>
-                    Grille horaire
-                </caption>
-            
-                <tr>
-                    <td align="center">-</td>
-                    <th>Lundi</th>
-                    <th>Mardi</th>
-                    <th>Mercredi</th>
-                    <th>Jeudi</th>
-                    <th>Vendredi</th>
-                </tr>
-            
-                <tr>
-                    <th>AM</th>
-                    <td>TCH055</td>
-                    <td>INF111</td>
-                    <td>TCH057</td>
-                    <td rowspan="2">TCH056</td>
-                    <td rowspan="2">TCH056</td>
-                </tr>
-            
-                <tr>
-                    <th>PM</th>
-                    <td>TCH057</td>
-                    <td>TCH055</td>
-                    <td>INF111</td>
-                </tr>
-            
-                <tr>
-                    <th>Soir</th>
-                    <td align="center">-</td>
-                    <td align="center">-</td>
-                    <td align="center">-</td>
-                    <td align="center">-</td>
-                    <td align="center">-</td>
-                </tr>
-            </table>
-
-            <h2>Intérêts</h2>
-            <ul class="content">
-                <li>Programmation</li>
-                <li>Jeux vidéos</li>
-                <ul>
-                    <li>Baldur's Gate 3</li>
-                    <li>Minesweeper</li>
+            <section>
+                <h2>Intérêts</h2>
+                <ul class="content">
+                    <li>Programmation</li>
+                    <li>Jeux vidéos</li>
+                    <ul>
+                        <li>Baldur's Gate 3</li>
+                        <li>Minesweeper</li>
+                    </ul>
                 </ul>
-            </ul>
+            </section>
 
-            <h2>Contact</h2>
-            <ol class="content">
-                <li><p class="italic"><strong>Courriel: </strong><a class="url" href="mailto:charles-olivier.lacoste.1@ens.etsmtl.ca">charles-olivier.lacoste.1@ens.etsmtl.ca</a></p></li>
-                <li><p class="italic"><strong>GitHub: </strong><a class="url" href="https://github.com/Charles-OlivierLacoste" target="_BLANK">https://github.com/Charles-OlivierLacoste</a></p></li>
-            </ol>
+            <section>
+                <h2>Contact</h2>
+                <ol class="content">
+                    <li><p class="italic"><strong>Courriel: </strong><a class="url" href="mailto:charles-olivier.lacoste.1@ens.etsmtl.ca">charles-olivier.lacoste.1@ens.etsmtl.ca</a></p></li>
+                    <li><p class="italic"><strong>GitHub: </strong><a class="url" href="https://github.com/Charles-OlivierLacoste" target="_BLANK">https://github.com/Charles-OlivierLacoste</a></p></li>
+                </ol>
+            </section>
 
             <hr>
 
-            <h2>Écrivez-moi</h2>
-            <form class="content">
-                <label for="prenom">Prénom</label>
-                <input name="prenom"
-                type="text"
-                placeholder="Veuillez saisir votre prénom"
-                required>
+            <section>
+                <h2>Écrivez-moi</h2>
+                <form class="content">
+                    <label for="prenom">Prénom</label>
+                    <input class="saisie"
+                    name="prenom"
+                    type="text"
+                    placeholder="Veuillez saisir votre prénom"
+                    required>
 
-                <label for="nom">Nom</label>
-                <input name="nom"
-                type="text"
-                placeholder="Veuillez saisir votre nom"
-                required>
+                    <label for="nom">Nom</label>
+                    <input class="saisie"
+                    name="nom"
+                    type="text"
+                    placeholder="Veuillez saisir votre nom"
+                    required>
 
-                <label for="message">Message</label>
-                <textarea name="message"
-                placeholder="Insérer votre message"
-                rows="10"
-                required></textarea>
+                    <label for="message">Message</label>
+                    <textarea class="saisie"
+                    name="message"
+                    placeholder="Insérer votre message"
+                    rows="10"
+                    required></textarea>
 
-                <button type="submit">Soumettre</button>
-                <button type="reset">Effacer</button>
-            </form>
-            
-            <a class="content url" href="#debut-page">Retour au début</a>
-        </main>
+                    <button class="bouton" type="submit">Soumettre</button>
+                    <button class="bouton" type="reset">Effacer</button>
+                </form>
+            </section>
+        </main>    
+
+        <footer><a class="url" href="#debut-page">Retour au début</a></footer>
+    </body>
+        
 </html>
