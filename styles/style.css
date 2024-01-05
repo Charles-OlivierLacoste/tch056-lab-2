@@ -23,3 +23,32 @@ body{
     background: rgb(26,101,134);
     background: radial-gradient(circle, rgba(26,101,134,1) 0%, rgba(0,212,255,0.7875350823923319) 100%); 
 }
+
+.content{
+    margin-left: 5%;   
+}
+
+#schedule{
+    background-color: #FFFFFF;
+}
+
+#schedule td:hover{
+    background-color: #D3D3D3;
+}
+
+#schedule caption{
+    text-transform: uppercase;
+}
+
+.url:hover{
+    font-weight: bold;
+}
+
+.italic{
+    font-style: italic;
+}
+
+form label,input,textarea,button{
+    margin-bottom: 5px;
+    display: block;
+}

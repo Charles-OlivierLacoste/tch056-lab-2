@@ -15,10 +15,10 @@
             <a href="https://example.com" target="_BLANK"><img src="./images/profil.png" alt="Photo de profil"></a>
 
             <h1>Charles-Olivier Lacoste</h1>
-            <p>Étudiant de première année à l'ETS au cheminement universitaire en technologie.</p>
+            <p class="content">Étudiant de première année à l'ETS au cheminement universitaire en technologie.</p>
 
             <h2>Horaire pour la session Hiver 2024</h2>
-            <table>
+            <table id="schedule" class="content">
                 <caption>
                     Grille horaire
                 </caption>
@@ -59,7 +59,7 @@
             </table>
 
             <h2>Intérêts</h2>
-            <ul>
+            <ul class="content">
                 <li>Programmation</li>
                 <li>Jeux vidéos</li>
                 <ul>
@@ -69,43 +69,37 @@
             </ul>
 
             <h2>Contact</h2>
-            <ol>
-                <li><p><strong><em>Courriel: </em></strong><a href="mailto:charles-olivier.lacoste.1@ens.etsmtl.ca">charles-olivier.lacoste.1@ens.etsmtl.ca</a></p></li>
-                <li><p><strong><em>GitHub: </em></strong><a href="https://github.com/Charles-OlivierLacoste" target="_BLANK">https://github.com/Charles-OlivierLacoste</a></p></li>
+            <ol class="content">
+                <li><p class="italic"><strong>Courriel: </strong><a class="url" href="mailto:charles-olivier.lacoste.1@ens.etsmtl.ca">charles-olivier.lacoste.1@ens.etsmtl.ca</a></p></li>
+                <li><p class="italic"><strong>GitHub: </strong><a class="url" href="https://github.com/Charles-OlivierLacoste" target="_BLANK">https://github.com/Charles-OlivierLacoste</a></p></li>
             </ol>
 
             <hr>
 
             <h2>Écrivez-moi</h2>
-            <form>
+            <form class="content">
                 <label for="prenom">Prénom</label>
-                <br>
                 <input name="prenom"
                 type="text"
                 placeholder="Veuillez saisir votre prénom"
                 required>
-                <br><br>
 
                 <label for="nom">Nom</label>
-                <br>
                 <input name="nom"
                 type="text"
                 placeholder="Veuillez saisir votre nom"
                 required>
-                <br><br>
 
                 <label for="message">Message</label>
-                <br>
                 <textarea name="message"
                 placeholder="Insérer votre message"
                 rows="10"
                 required></textarea>
-                <br>
 
                 <button type="submit">Soumettre</button>
                 <button type="reset">Effacer</button>
             </form>
             <br>
-            <a href="#debut-page">Retour au début</a>
+            <a class="content url" href="#debut-page">Retour au début</a>
         </main>
 </html>
