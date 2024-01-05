@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <link href="style.css" rel="stylesheet">
+        <title>Page personnelle de Charles-Olivier Lacoste</title>
+    </head>
+
+    <body>
+
+        <!--Placer un element vide de reference-->
+        <a id="debut-page"></a>
+
+        <a href="https://example.com" target="_BLANK"><img src="./images/profil.png" alt="Photo de profil"></a>
+
+        <h1>Charles-Olivier Lacoste</h1>
+        <p>Étudiant de première année à l'ETS au cheminement universitaire en technologie.</p>
+
+        <h2>Horaire pour la session Hiver 2024</h2>
+        <table>
+            <caption>
+                Grille horaire
+            </caption>
+        
+            <tr>
+                <td align="center">-</td>
+                <th>Lundi</th>
+                <th>Mardi</th>
+                <th>Mercredi</th>
+                <th>Jeudi</th>
+                <th>Vendredi</th>
+            </tr>
+        
+            <tr>
+                <th>AM</th>
+                <td>TCH055</td>
+                <td>INF111</td>
+                <td>TCH057</td>
+                <td rowspan="2">TCH056</td>
+                <td rowspan="2">TCH056</td>
+            </tr>
+        
+            <tr>
+                <th>PM</th>
+                <td>TCH057</td>
+                <td>TCH055</td>
+                <td>INF111</td>
+            </tr>
+        
+            <tr>
+                <th>Soir</th>
+                <td align="center">-</td>
+                <td align="center">-</td>
+                <td align="center">-</td>
+                <td align="center">-</td>
+                <td align="center">-</td>
+            </tr>
+        </table>
+
+        <h2>Intérêts</h2>
+        <ul>
+            <li>Programmation</li>
+            <li>Jeux vidéos</li>
+            <ul>
+                <li>Baldur's Gate 3</li>
+                <li>Minesweeper</li>
+            </ul>
+        </ul>
+
+        <h2>Contact</h2>
+        <ol>
+            <li><p><strong><em>Courriel: </em></strong><a href="mailto:charles-olivier.lacoste.1@ens.etsmtl.ca">charles-olivier.lacoste.1@ens.etsmtl.ca</a></p></li>
+            <li><p><strong><em>GitHub: </em></strong><a href="https://github.com/Charles-OlivierLacoste" target="_BLANK">https://github.com/Charles-OlivierLacoste</a></p></li>
+        </ol>
+
+        <hr>
+
+        <h2>Écrivez-moi</h2>
+        <form>
+            <label for="prenom">Prénom</label>
+            <br>
+            <input name="prenom"
+             type="text"
+             placeholder="Veuillez saisir votre prénom"
+             required>
+            <br><br>
+
+             <label for="nom">Nom</label>
+             <br>
+             <input name="nom"
+              type="text"
+              placeholder="Veuillez saisir votre nom"
+              required>
+            <br><br>
+
+            <label for="message">Message</label>
+            <br>
+            <textarea name="message"
+             placeholder="Insérer votre message"
+             rows="10"
+             required></textarea>
+            <br>
+
+            <button type="submit">Soumettre</button>
+            <button type="reset">Effacer</button>
+        </form>
+        <br>
+        <a href="#debut-page">Retour au début</a>
+</html>
